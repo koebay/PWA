@@ -1,0 +1,15 @@
+{
+    "theme_color" : "#876240",
+    "background_color" : "#f7b26f",
+    "display" : "fullscreen",
+    "scope" : "/",
+    "start_url" : "/PWA",
+    "name" : "Blog o kawie",
+    "short_name" : "coffeAPP",
+    "description" : "projekt wsb",
+    "icons" : [{
+        "src" : "./icon.png",
+        "sizes" : "512x512",
+        "type" : "png"
+    }]
+    }
