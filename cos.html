@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Coffee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        .paragraph-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        p {
+            line-height: 1.6;
+            width: calc(50% - 10px); /* Adjust width to fit two paragraphs in one row */
+            margin-bottom: 20px;
+        }
+        img {
+            display: block;
+            margin: auto;
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        @media screen and (max-width: 768px) {
+            .paragraph-container {
+                flex-direction: column;
+            }
+            p {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the World of Coffee</h1>
+    </header>
+    <main>
+        <div class="paragraph-container">
+            <p>Coffee is one of the most popular beverages worldwide. It is loved for its unique aroma, rich flavor, and its ability to provide a stimulating effect due to its caffeine content.</p>
+            <p>There are numerous varieties of coffee beans, each with its own distinct taste profile. Some popular types include Arabica, known for its smooth flavor, and Robusta, which is more robust and has a higher caffeine content.</p>
+            <p>From espresso to cappuccino, coffee can be prepared in various ways to suit different preferences. It can be enjoyed black or with added milk, cream, sugar, or flavored syrups.</p>
+            <p>Aside from its delicious taste, coffee has also been linked to several health benefits when consumed in moderation. It is rich in antioxidants and may lower the risk of certain diseases.</p>
+            <p>Whether you're sipping a cup of freshly brewed coffee in a cozy café or brewing your favorite blend at home, coffee is more than just a beverage—it's a cultural phenomenon that brings people together.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1505843553692-5b3edd0f8412" alt="Coffee beans">
+    </main>
+</body>
+</html>
